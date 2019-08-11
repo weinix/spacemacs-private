@@ -37,12 +37,8 @@ font:  ## Download Source Code Pro font
 	cd /tmp; tar xzvf /tmp/1.050R-it.tar.gz; open /tmp/
 
 
-
-
-
 spacemacs: rm-config   	## Clone spacemacs config from zilongshanren and his private config
 	@$(call INFO, "Clone spacemacs config from zilongshanren and his private config"); \
 	git clone https://github.com/zilongshanren/spacemacs ~/.emacs.d -b develop; \
 	git clone https://github.com/weinix/spacemacs-private ~/.spacemacs.d -b wei-mac ; \
 	emacs --insecure
-
